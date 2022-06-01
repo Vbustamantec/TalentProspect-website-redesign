@@ -1,0 +1,115 @@
+.app__hero-wrapper {
+  flex: 1;
+  width: 100%;
+  flex-direction: row;
+  background-color: var(--secondary-white-color);
+  padding: 10rem 2.5rem;
+
+  .app__hero-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .app__hero-text {
+      display: flex;
+      flex-direction: column;
+      flex: 0.65;
+      margin: 3rem 0 0 1.5rem;
+      font-weight: 700;
+      font-size: 1.4rem;
+
+      span {
+        color: var(--main-color);
+      }
+
+      p {
+        flex: 0.5;
+        margin-top: 2rem;
+        font-size: 1rem;
+        color: var(--font-color);
+        font-weight: 400;
+      }
+
+      img {
+        margin-left: 20%;
+        object-fit: contain;
+      }
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .app__hero-container {
+      justify-content: space-evenly;
+
+      .app__hero-text {
+        font-size: 2rem;
+
+        p {
+          font-size: 1.5rem;
+        }
+        .app__hero-btn {
+          margin-top: 3 rem;
+          font-size: 1.5rem;
+        }
+      }
+      .app__hero-image img {
+        width: 900px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .app__hero-container {
+      .app__hero-text {
+        flex: 0.75 1;
+      }
+      .app__hero-image img {
+        width: 550px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    .app__hero-container {
+      .app__hero-text {
+        flex: 1;
+      }
+      .app__hero-image img {
+        width: 450px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 845px) {
+    padding-top: 5rem;
+    padding-bottom: 0;
+    .app__hero-container {
+      justify-content: center;
+
+      .app__hero-image img {
+        margin-top: 2rem;
+        width: 100%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    padding-bottom: 0;
+  }
+
+  @media screen and (max-width: 376px) {
+    .app__hero-text {
+      font-size: 1.1rem;
+
+      p {
+        font-weight: 400 !important;
+      }
+
+      button {
+        width: 50%;
+      }
+    }
+  }
+}

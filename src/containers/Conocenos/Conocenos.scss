@@ -1,0 +1,117 @@
+.app__conocenos-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 10rem 5.5rem 10rem;
+
+  .app__conocenos-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3rem;
+
+    h2 {
+      margin-bottom: 1.5rem;
+      font-size: 2.25rem;
+    }
+  }
+
+  .app__conocenos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .app__conocenos-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: var(--main-color);
+      }
+
+      p {
+        width: 600px;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+      }
+
+      button {
+        padding: 0.4rem 1rem;
+        background: var(--main-color);
+        border-radius: 5px;
+        border: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+        a {
+          color: var(--white-color);
+          font-size: 0.9rem;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .app__conocenos-container {
+      justify-content: space-evenly;
+
+      .app__conocenos-text {
+        h3 {
+          font-size: 2.25rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+        }
+
+        button {
+          a {
+            font-size: 1.15rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 2000px) {
+    .app__conocenos-header {
+      h2 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .app__conocenos-container {
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 601px) {
+    .app__conocenos-header {
+      h2 {
+        font-size: 1.75rem;
+      }
+    }
+    .app__conocenos-container {
+      .app__conocenos-text {
+        p {
+          width: 100%;
+        }
+      }
+      .app__conocenos-image {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
