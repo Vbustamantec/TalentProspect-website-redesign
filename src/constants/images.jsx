@@ -1,4 +1,7 @@
 import logo from "../assets/logo.webp";
+import linkedin from "../assets/linkedin.webp";
+import email from "../assets/email.webp";
+import twitter from "../assets/twitter.webp";
 import conocenos from "../assets/conocenos.webp";
 import clover from "../assets/clover.webp";
 import relier from "../assets/relier.webp";
@@ -12,14 +15,17 @@ import BgHeader from "../assets/BgHeader.webp";
 
 export default {
   logo,
-  BgHeader,
+  linkedin,
+  email,
+  twitter,
   conocenos,
-  divisor,
-  Optimization,
-  iman,
-  CV,
-  trackchain,
-  persistent,
-  relier,
   clover,
+  relier,
+  persistent,
+  trackchain,
+  CV,
+  iman,
+  Optimization,
+  divisor,
+  BgHeader,
 };

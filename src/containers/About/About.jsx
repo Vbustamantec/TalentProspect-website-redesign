@@ -36,7 +36,7 @@ const About = () => {
         </div>
         <div className="app__about-card">
           <img src={images.Optimization} alt="#" />
-          <h3>Busqueda de Talentos</h3>
+          <h3>Optimización de CV/LinkedIn</h3>
           <p>
             Desarrollamos un programa de inserción laboral en el cual te
             apoyamos a optimizar cartas de presentación y estrategia de

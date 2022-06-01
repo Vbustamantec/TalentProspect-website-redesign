@@ -95,6 +95,14 @@
     }
   }
 
+  @media screen and (max-width: 500px) {
+    .app__hero-text {
+      button {
+        width: 50%;
+      }
+    }
+  }
+
   @media screen and (max-width: 426px) {
     padding-bottom: 0;
   }
@@ -105,10 +113,6 @@
 
       p {
         font-weight: 400 !important;
-      }
-
-      button {
-        width: 50%;
       }
     }
   }
