@@ -1,11 +1,8 @@
 .app__hero-wrapper {
-  flex: 1;
-  width: 100%;
-  flex-direction: row;
-  background-color: var(--secondary-white-color);
-  padding: 10rem 2.5rem;
-
   .app__hero-container {
+    background-color: var(--secondary-white-color);
+    padding: 10rem 2.5rem;
+
     display: flex;
     width: 100%;
     justify-content: space-between;

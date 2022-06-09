@@ -4,7 +4,7 @@ import { images } from "../../constants";
 
 const HeroSection = () => {
   return (
-    <div className="app__hero-wrapper">
+    <section className="app__hero-wrapper">
       <div className="app__hero-container">
         <div className="app__hero-text">
           <h2>
@@ -25,7 +25,7 @@ const HeroSection = () => {
           <img src={images.BgHeader} alt="Header Background" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

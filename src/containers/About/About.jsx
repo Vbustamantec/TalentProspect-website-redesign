@@ -4,9 +4,9 @@ import { images } from "../../constants";
 
 const About = () => {
   return (
-    <div className="app__about-wrapper">
-      <div className="app__about-header">
-        <h3>NUESTROS SERVICIOS</h3>
+    <section aria-labelledby="Services" className="app__about-wrapper">
+      <header className="app__about-header">
+        <h3 id="Services">NUESTROS SERVICIOS</h3>
         <h2>Esto Es Lo Que Hacemos:</h2>
         <img src={images.divisor} className="divisor" alt="divisor" />
         <p>
@@ -14,7 +14,7 @@ const About = () => {
           trabajar y talento de calidad para que las empresas logren sus
           objetivos.
         </p>
-      </div>
+      </header>
       <div className="app__about-cards">
         <div className="app__about-card">
           <img src={images.iman} alt="#" />
@@ -44,7 +44,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

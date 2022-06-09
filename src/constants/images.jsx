@@ -1,4 +1,5 @@
 import logo from "../assets/logo.webp";
+import logoFooter from "../assets/logoFooter.webp";
 import linkedin from "../assets/linkedin.webp";
 import email from "../assets/email.webp";
 import twitter from "../assets/twitter.webp";
@@ -15,6 +16,7 @@ import BgHeader from "../assets/BgHeader.webp";
 
 export default {
   logo,
+  logoFooter,
   linkedin,
   email,
   twitter,
